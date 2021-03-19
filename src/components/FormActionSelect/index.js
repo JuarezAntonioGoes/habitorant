@@ -6,7 +6,7 @@ const FormActionSelect = ({ children, inputRef, error, name }) => {
   return (
     <ContainerSelect>
       <Select ref={inputRef} name={name}>
-        <option disabled selected value="">
+        <option defaultValue>
           {name}
         </option>
         {children.map(({ value, content, selected }, index) => (

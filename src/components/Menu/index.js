@@ -23,7 +23,7 @@ const Menu = () => {
   };
 
   return (
-    <MenuContainer active={true}>
+    <MenuContainer>
       <MenuIconsWrap>
         <MenuIcon>
           <Arrow />
