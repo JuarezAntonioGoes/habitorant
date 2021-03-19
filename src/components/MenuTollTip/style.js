@@ -7,8 +7,8 @@ export const MenuPositioning = styled.div`
   @media (min-width: 1024px) {
     display: block;
     position: fixed;
-    top: -45px !important;
-    left: 50% !important;
+    top: 20px !important;
+    right: 35px !important;
     transform: translate(-50%, -50%);
     z-index: 3 !important;
   }

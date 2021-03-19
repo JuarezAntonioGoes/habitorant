@@ -8,6 +8,7 @@ export const MenuContainer = styled(AppBar)`
   background-color: ${COLORS.foreground} !important;
 
   @media (min-width: 1024px) {
+    position: absolute !important;
     top: 0 !important;
     bottom: auto !important;
   }

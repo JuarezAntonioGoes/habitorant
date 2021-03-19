@@ -12,7 +12,7 @@ export const HabitsTitleWrap = styled.div`
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     width: 90%;
   }
 `;
@@ -21,13 +21,14 @@ export const HabitsWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 100px;
 
   @media (min-width: 1024px) {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start !important;
     align-items: flex-start !important;
-    padding: 50px;
+    padding: 0px 50px 100px 50px;
   }
 `;
 
@@ -42,7 +43,7 @@ export const HabitsTitle = styled.h1`
     flex-wrap: wrap;
     justify-content: flex-start !important;
     align-items: flex-start !important;
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
   }
 `;
 
@@ -62,7 +63,7 @@ export const HabitsButton = styled(Button)`
   height: 40px;
 
   @media (min-width: 1024px) {
-    margin-top: 23px !important;
+    margin-top: 55px !important;
     padding: 35px 60px !important;
     font-weight: 700 !important;
     font-size: 1rem !important;
