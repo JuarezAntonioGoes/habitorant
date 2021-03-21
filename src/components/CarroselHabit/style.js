@@ -7,6 +7,10 @@ export const ContainerCarrosel = styled.div`
   max-width: 100vw;
   margin: 0 auto;
   text-align: -webkit-center;
+  
+  div{
+    margin: 0 auto;
+  }
 `;
 
 export const DivButtonAllHabit = styled.div`

@@ -68,7 +68,6 @@ const FormEdit = ({
   return (
     <>
       <FormEditBackButtonWrap>
-        <FormBackgroundModal show={showModal} />
         <FormModalConfirmDelete show={showModal}>
           <h1>Delete?</h1>
 
