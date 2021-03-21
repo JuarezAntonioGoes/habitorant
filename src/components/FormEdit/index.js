@@ -9,7 +9,6 @@ import {
   FormEditBackButtonIcon,
   FormEditBackButtonWrap,
   FormModalConfirmDelete,
-  FormBackgroundModal,
 } from "./style";
 import { useHistory } from "react-router-dom";
 import { UserContext } from "../../providers/UserProvider";
